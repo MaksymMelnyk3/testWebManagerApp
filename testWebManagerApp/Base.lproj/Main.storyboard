@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="testWebManagerApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Input name..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nKx-wt-twP">
+                                <rect key="frame" x="20" y="431" width="374" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QSL-Zt-46k">
+                                <rect key="frame" x="137" y="473" width="140" height="31"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="CONNECT"/>
+                                <connections>
+                                    <action selector="writeToServer:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4gE-ge-GJG"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.33711361890000002" green="0.36544036870000002" blue="0.32940685749999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="QSL-Zt-46k" secondAttribute="trailing" constant="137" id="8vN-FS-ED1"/>
+                            <constraint firstItem="QSL-Zt-46k" firstAttribute="top" secondItem="nKx-wt-twP" secondAttribute="bottom" constant="8" symbolic="YES" id="Qhf-OP-yeA"/>
+                            <constraint firstItem="QSL-Zt-46k" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="137" id="S5g-6B-ezy"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="nKx-wt-twP" secondAttribute="trailing" constant="20" id="geo-r4-CYR"/>
+                            <constraint firstItem="nKx-wt-twP" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="i60-Ah-Kff"/>
+                            <constraint firstItem="nKx-wt-twP" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="jp3-dL-drf"/>
+                            <constraint firstItem="nKx-wt-twP" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="k9J-hU-0J2"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="buttonConnect" destination="QSL-Zt-46k" id="NYd-TR-orC"/>
+                        <outlet property="textFieldName" destination="nKx-wt-twP" id="C4R-1S-o3L"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="18.840579710144929" y="85.714285714285708"/>
+        </scene>
+    </scenes>
+</document>
