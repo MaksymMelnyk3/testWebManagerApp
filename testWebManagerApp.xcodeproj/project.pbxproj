@@ -14,6 +14,7 @@
 		9480E2592869C1EB00D45AFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9480E2582869C1EB00D45AFB /* Assets.xcassets */; };
 		9480E25C2869C1EB00D45AFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9480E25A2869C1EB00D45AFB /* LaunchScreen.storyboard */; };
 		9480E2672869C2F400D45AFB /* WebSocketManager in Frameworks */ = {isa = PBXBuildFile; productRef = 9480E2662869C2F400D45AFB /* WebSocketManager */; };
+		94BF293E28817AE600162128 /* MyCellLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94BF293D28817AE600162128 /* MyCellLogic.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		9480E25B2869C1EB00D45AFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9480E25D2869C1EB00D45AFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9480E26B286B03F000D45AFB /* WebSocketManager */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = WebSocketManager; path = ../WebSocketManager; sourceTree = "<group>"; };
+		94BF293D28817AE600162128 /* MyCellLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCellLogic.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				9480E24F2869C1E900D45AFB /* AppDelegate.swift */,
 				9480E2512869C1E900D45AFB /* SceneDelegate.swift */,
 				9480E2532869C1E900D45AFB /* ViewController.swift */,
+				94BF293D28817AE600162128 /* MyCellLogic.swift */,
 				9480E2552869C1E900D45AFB /* Main.storyboard */,
 				9480E2582869C1EB00D45AFB /* Assets.xcassets */,
 				9480E25A2869C1EB00D45AFB /* LaunchScreen.storyboard */,
@@ -156,6 +159,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94BF293E28817AE600162128 /* MyCellLogic.swift in Sources */,
 				9480E2542869C1E900D45AFB /* ViewController.swift in Sources */,
 				9480E2502869C1E900D45AFB /* AppDelegate.swift in Sources */,
 				9480E2522869C1E900D45AFB /* SceneDelegate.swift in Sources */,
