@@ -10,7 +10,7 @@ import WebSocketManager
 
 class ViewController: UIViewController {
     
-    let soc = WebSocketManager()
+    let soc = WebSocketManager(cellLogic: MyCellLogic())
     @IBOutlet weak var buttonConnect: UIButton!
     @IBOutlet weak var textFieldName: UITextField!
     

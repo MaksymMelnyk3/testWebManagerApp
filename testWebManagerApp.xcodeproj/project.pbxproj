@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6404C0182888166000F48E8B /* WebSocketManager in Frameworks */ = {isa = PBXBuildFile; productRef = 6404C0172888166000F48E8B /* WebSocketManager */; };
 		9480E2502869C1E900D45AFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9480E24F2869C1E900D45AFB /* AppDelegate.swift */; };
 		9480E2522869C1E900D45AFB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9480E2512869C1E900D45AFB /* SceneDelegate.swift */; };
 		9480E2542869C1E900D45AFB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9480E2532869C1E900D45AFB /* ViewController.swift */; };
 		9480E2572869C1E900D45AFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9480E2552869C1E900D45AFB /* Main.storyboard */; };
 		9480E2592869C1EB00D45AFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9480E2582869C1EB00D45AFB /* Assets.xcassets */; };
 		9480E25C2869C1EB00D45AFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9480E25A2869C1EB00D45AFB /* LaunchScreen.storyboard */; };
-		9480E2672869C2F400D45AFB /* WebSocketManager in Frameworks */ = {isa = PBXBuildFile; productRef = 9480E2662869C2F400D45AFB /* WebSocketManager */; };
 		94BF293E28817AE600162128 /* MyCellLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94BF293D28817AE600162128 /* MyCellLogic.swift */; };
 /* End PBXBuildFile section */
 
@@ -35,7 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9480E2672869C2F400D45AFB /* WebSocketManager in Frameworks */,
+				6404C0182888166000F48E8B /* WebSocketManager in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,7 +99,7 @@
 			);
 			name = testWebManagerApp;
 			packageProductDependencies = (
-				9480E2662869C2F400D45AFB /* WebSocketManager */,
+				6404C0172888166000F48E8B /* WebSocketManager */,
 			);
 			productName = testWebManagerApp;
 			productReference = 9480E24C2869C1E900D45AFB /* testWebManagerApp.app */;
@@ -130,7 +130,7 @@
 			);
 			mainGroup = 9480E2432869C1E900D45AFB;
 			packageReferences = (
-				9480E2652869C2F400D45AFB /* XCRemoteSwiftPackageReference "WebSocketManager" */,
+				6404C0162888166000F48E8B /* XCRemoteSwiftPackageReference "WebSocketManager" */,
 			);
 			productRefGroup = 9480E24D2869C1E900D45AFB /* Products */;
 			projectDirPath = "";
@@ -384,20 +384,20 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		9480E2652869C2F400D45AFB /* XCRemoteSwiftPackageReference "WebSocketManager" */ = {
+		6404C0162888166000F48E8B /* XCRemoteSwiftPackageReference "WebSocketManager" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/ShishkoTryas/WebSocketManager.git";
 			requirement = {
-				branch = main;
+				branch = CellLogic;
 				kind = branch;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		9480E2662869C2F400D45AFB /* WebSocketManager */ = {
+		6404C0172888166000F48E8B /* WebSocketManager */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 9480E2652869C2F400D45AFB /* XCRemoteSwiftPackageReference "WebSocketManager" */;
+			package = 6404C0162888166000F48E8B /* XCRemoteSwiftPackageReference "WebSocketManager" */;
 			productName = WebSocketManager;
 		};
 /* End XCSwiftPackageProductDependency section */
