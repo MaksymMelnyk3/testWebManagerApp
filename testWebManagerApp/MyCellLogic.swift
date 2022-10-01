@@ -42,7 +42,7 @@ class Fat: CellLogic {
         fat.configure(gameConfig: gameConfig)
     }
     
-    func handleGameUpdate(mapState: UserData) -> [CellActivity]? {
+    func handleGameUpdate(mapState: MapState) -> [CellActivity]? {
         fat.handleGameUpdate(mapState: mapState)
     }
     
